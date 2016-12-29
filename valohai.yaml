@@ -3,3 +3,7 @@
 - step:
     name: list
     command: ls
+    inputs:
+      - name: dada
+        urls:
+          - dadaurl
