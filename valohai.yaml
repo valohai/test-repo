@@ -2,6 +2,7 @@
 
 - step:
     name: list
+    image: busybox
     command: ls
     inputs:
       - name: dada
