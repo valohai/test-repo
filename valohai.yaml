@@ -6,8 +6,7 @@
     command: ls
     inputs:
       - name: dada
-        urls:
-          - dadaurl
+        default: dadaurl
     outputs:
       - name: didi
         files:
