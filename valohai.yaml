@@ -9,7 +9,3 @@
         default: dadaurl
     outputs:
       - name: didi
-        files:
-          - x.txt
-          - y.png
-
