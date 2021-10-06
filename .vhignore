@@ -1,0 +1,4 @@
+# ignore all model files (there are lots in test)
+*.pb
+# except those needed for production
+!proddata/**.pb
