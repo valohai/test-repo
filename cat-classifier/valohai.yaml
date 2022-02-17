@@ -1,0 +1,11 @@
+---
+# dodo
+- step:
+    name: list-cats
+    image: busybox
+    command: ls
+    inputs:
+      - name: miumiu
+        default: dadaurl
+    outputs:
+      - name: didi
