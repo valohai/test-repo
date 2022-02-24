@@ -1,0 +1,11 @@
+---
+# dodo
+- step:
+    name: list-ships
+    image: busybox
+    command: ls
+    inputs:
+      - name: dada
+        default: dadaurl
+    outputs:
+      - name: didi
